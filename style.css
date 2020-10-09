@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+body{
+	background-color: #E708BB;
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+}
+h1{
+	border: 2px  solid #000;
+	border-radius: 5px;
+	padding: 0.5em;
+	text-align: center;
+	width: 200px;
+	background-color: #E7080E;
+	margin-left: 42%;
+}
+label{
+	font-size: 2em;
+}
+select{
+	width: 150px;
+	height: 30px;
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+input{
+	width: 130px;
+	height: 25px;
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+.section1{
+	border: 2px solid #fff;
+	border-radius: 5px;
+	width: 612px;
+	height: 500px;
+	background-color: #fff;
+	float: left;
+}
+.section2{
+	border: 2px solid #fff;
+	border-radius: 5px;
+	width: 612px;
+	height: 500px;
+	background-color: #fff;
+    float: right;
+}
+#table{
+	margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+	border: 2px solid #000;
+	width: 200px;
+	height: 200px;
+}
+.above{
+	height: 50px;
+	background-color: #BB08E7;
+}
+p{
+	font-size: 25px;
+}
+button{
+	border: 2px solid #000;
+	width: 180px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #E71608;
+	margin-left: 25%;
+	margin-top: 45%;
+}
+#bottom{
+	width: 608px;
+	height: 100px;
+}
+#output-q, #show, #output-m, #output-total{
+	border: 1px solid #fff;
+}
+input{
+	font-size: 25px;
+	margin-top: 20px;
+}
+select{
+	font-size: 20px;
+}

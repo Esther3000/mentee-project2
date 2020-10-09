@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOTEL ONLINE MENU</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header id="title">
+		<h1>FOOD MENU</h1>
+	</header>
+	<section class="section1">
+		<article>
+			<label id="food-section"for="food-name">Food name: 
+			<select id='selectList' onClick="showSelected(this)" style="font-family: 'Caveat', cursive;">
+			 <option disabled selected value>Food name</option>
+             <option value="Pilau">Pilau</option>
+             <option value="french fries">French fries</option>
+             <option value="fried chicken">Fried chicken</option>
+             <option value="ugali">Ugali</option>
+             <option value="chapati">Chapati</option>
+             <option value="biryani">Biryani</option>
+             <option value="beef burger">Beef burger</option>
+             <option value="chicken burger">Chicken burger</option>
+             <option value="beef samosa">Beef samosa</option>
+             <option value="veggie samosa">Veggie samosa</option>
+         </select>
+		</label>
+	</article>
+		<article>
+			<label id="number-label"for="quantity"> Quantity:
+		    <select id='quantity' onClick="qtySelected(this)"style="font-family: 'Caveat', cursive;">
+			 <option disabled selected value> Quantity</option>
+             <option value="one">1</option>
+             <option value="two">2</option>
+             <option value="three">3</option>
+             <option value="four">4</option>
+             <option value="five">5</option>
+             <option value="six">6</option>
+             <option value="seven">7</option>
+             </select>
+		</label>
+	</article>
+		<article id="amount">
+			<label id="number-label"for="amount"> Amount:
+				<select id='amount' onClick="amtSelected(this)"style="font-family: 'Caveat', cursive;" >
+			 <option disabled selected value> Amount</option>
+             <option value="five-hundred">500</option>
+             <option value="seven-fifty">750</option>
+             <option value="one-thousand">1000</option>
+             <option value="fifteen-hundred">1500</option>
+             <option value="two-thousand">2000</option>
+             <option value="twenty-hundred">2500</option>
+             
+             </select>
+		</article>
+		<button id="button"style="font-family: 'Caveat', cursive;font-size: 20px;">Submit</button>
+	</section>
+	<section class="section2">
+		<article id="table">
+		<div class="above"><p>Food Items</p></div>
+        <div class="above"><p>Quantity</p></div>
+        <div class="above"><p>Amount</p></div>
+		<div>
+       <p> 
+        Food ordered is: 
+        <input type="text" id="show" value=""style="font-family:'Caveat', cursive;"> 
+    </p>
+	</div>
+	<div> <input type="text" id="output-q" value=""style="font-family:'Caveat', cursive;"> </div>
+	<div> <input type="text" name="amount" id="output-m"style="font-family:'Caveat', cursive;"></div>
+	<div id="bottom"><p style="font-size: 40px;">Total: <input type="text" name="total"id="output-total"style="font-family:'Caveat', cursive;"></p></div>
+	</article>	
+	</section>
+<script type="text/javascript"src="index.js"></script>
+</body>
+</html>
