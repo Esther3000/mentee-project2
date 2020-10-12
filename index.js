@@ -16,7 +16,7 @@ function amtSelected(thisObj){
  		let num2 = document.getElementById('output-m').value;
  		let total = document.getElementById('output-total');
  		let result = num1*num2;
- 		total.value = result;
+ 		total.value = "Kshs."+ result;
  	
 
  });
